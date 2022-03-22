@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "clone_project" "\0"
+            VALUE "FileDescription", "miniproj_with_firebase" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "clone_project" "\0"
+            VALUE "InternalName", "miniproj_with_firebase" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2022 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "clone_project.exe" "\0"
-            VALUE "ProductName", "clone_project" "\0"
+            VALUE "OriginalFilename", "miniproj_with_firebase.exe" "\0"
+            VALUE "ProductName", "miniproj_with_firebase" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

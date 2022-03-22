@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.14)
-project(clone_project LANGUAGES CXX)
+project(miniproj_with_firebase LANGUAGES CXX)
 
-set(BINARY_NAME "clone_project")
+set(BINARY_NAME "miniproj_with_firebase")
 
 cmake_policy(SET CMP0063 NEW)
 

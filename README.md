@@ -1,4 +1,4 @@
-# clone_project
+# miniproj_with_firebase
 
 A new Flutter project.
 

@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.clone_project">
+    package="com.example.miniproj_with_firebase">
    <application
-        android:label="clone_project"
+        android:label="miniproj_with_firebase"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
@@ -19,6 +19,7 @@
             <meta-data
               android:name="io.flutter.embedding.android.NormalTheme"
               android:resource="@style/NormalTheme"
+
               />
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -30,5 +31,17 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
-    </application>
+        <meta-data
+           android:name="com.google.android.geo.API_KEY"
+           android:value="{AIzaSyBwVkRzRi31_2_wTxQTfdNAdkDY2aXu3a0}"
+           />
+        <meta-data
+                android:name="com.naver.maps.map.CLIENT_ID"
+                android:value="rhm75zwbij" />
+        <meta-data android:name="com.kakao.sdk.AppKey" android:value="580194dae906c59c684c0514f1d32e46"/>
+    </application>    
+    <uses-permission android:name="android.permission.INTERNET">
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION">
+    </uses-permission>
 </manifest>

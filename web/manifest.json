@@ -1,6 +1,6 @@
 {
-    "name": "clone_project",
-    "short_name": "clone_project",
+    "name": "miniproj_with_firebase",
+    "short_name": "miniproj_with_firebase",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
