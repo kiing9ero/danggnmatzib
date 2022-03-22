@@ -4,6 +4,7 @@ import 'package:provider/provider.dart';
 
 import 'auth_service.dart';
 import 'loginpage.dart';
+import 'mapsample.dart';
 
 //회원가입페이지
 class RegistrationPage extends StatefulWidget {
@@ -82,7 +83,8 @@ class _RegistrationPageState extends State<RegistrationPage> {
                         // 홈페이지로 이동
                         Navigator.pushReplacement(
                           context,
-                          MaterialPageRoute(builder: (context) => HomePage()),
+                          MaterialPageRoute(
+                              builder: (context) => NaverMapTest()),
                         );
                       },
                       onError: (err) {
