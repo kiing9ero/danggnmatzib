@@ -36,10 +36,15 @@ class _LoginPageState extends State<LoginPage> {
                     Center(
                       child: Column(
                         children: [
-                          Image.network(
-                              'https://w.namu.la/s/41d0aa1e976914c87648402e960fb127eee896c3b65cfb8325ccd4961dc0b9e8448a9808bf027e537c2a1607fc176698967a8e5ac80a1818e125df15d2b03c0ba9d83c5bf3363cc950a0c37d6161ae9ea650324247a7cfd70c5a02d2103313b4373f94e0e282d4b55fe51d11a9d97fed'),
                           SizedBox(
-                            height: 8,
+                            height: 64,
+                          ),
+                          Image.asset(
+                            "lib/img/logo.png",
+                            width: 100,
+                          ),
+                          SizedBox(
+                            height: 32,
                           ),
                           Text(
                             "이랏샤이마세!! 🙂",
