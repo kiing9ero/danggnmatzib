@@ -40,11 +40,15 @@ class _NaverMapTestState extends State<NaverMapTest> {
           ),
         ],
       ),
-      body: Container(
-        child: NaverMap(
-          onMapCreated: onMapCreated,
-          mapType: _mapType,
-        ),
+      body: Stack(
+        children: [
+          Container(
+            child: NaverMap(
+              onMapCreated: onMapCreated,
+              mapType: _mapType,
+            ),
+          ),
+        ],
       ),
     );
   }
