@@ -36,9 +36,11 @@
            android:value="{AIzaSyBwVkRzRi31_2_wTxQTfdNAdkDY2aXu3a0}"
            />
         <meta-data
-                android:name="com.naver.maps.map.CLIENT_ID"
-                android:value="rhm75zwbij" />
-        <meta-data android:name="com.kakao.sdk.AppKey" android:value="580194dae906c59c684c0514f1d32e46"/>
+            android:name="com.naver.maps.map.CLIENT_ID"
+            android:value="rhm75zwbij" />
+        <meta-data 
+            android:name="com.kakao.sdk.AppKey"
+            android:value="580194dae906c59c684c0514f1d32e46"/>
     </application>    
     <uses-permission android:name="android.permission.INTERNET">
     </uses-permission>
