@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:miniproj_with_firebase/homepage.dart';
 import 'package:provider/provider.dart';
 
 import 'auth_service.dart';
 import 'loginpage.dart';
-import 'mapsample.dart';
+import 'MapPage.dart';
 
 //회원가입페이지
 class RegistrationPage extends StatefulWidget {

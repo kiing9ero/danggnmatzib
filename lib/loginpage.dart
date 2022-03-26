@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:miniproj_with_firebase/MainPage.dart';
 import 'package:miniproj_with_firebase/homepage.dart';
-import 'package:miniproj_with_firebase/mapsample.dart';
+import 'package:miniproj_with_firebase/MapPage.dart';
 import 'package:miniproj_with_firebase/registration.dart';
 import 'package:provider/provider.dart';
 
@@ -36,8 +37,7 @@ class _LoginPageState extends State<LoginPage> {
                     Center(
                       child: Column(
                         children: [
-                          Image.network(
-                              'https://w.namu.la/s/41d0aa1e976914c87648402e960fb127eee896c3b65cfb8325ccd4961dc0b9e8448a9808bf027e537c2a1607fc176698967a8e5ac80a1818e125df15d2b03c0ba9d83c5bf3363cc950a0c37d6161ae9ea650324247a7cfd70c5a02d2103313b4373f94e0e282d4b55fe51d11a9d97fed'),
+                          Image.asset("assets/images/logo.jpeg"),
                           SizedBox(
                             height: 8,
                           ),
@@ -94,11 +94,11 @@ class _LoginPageState extends State<LoginPage> {
                               content: Text("로그인 성공"),
                             ));
 
-                            // HomePage로 이동
+                            // MainPage로 이동
                             Navigator.pushReplacement(
                               context,
                               MaterialPageRoute(
-                                  builder: (context) => NaverMapTest()),
+                                  builder: (context) => MainPage()),
                             );
                           },
                           onError: (err) {

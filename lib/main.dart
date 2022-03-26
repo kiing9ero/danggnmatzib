@@ -2,8 +2,9 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:miniproj_with_firebase/loginpage.dart';
-import 'package:miniproj_with_firebase/mapsample.dart';
+import 'package:miniproj_with_firebase/MapPage.dart';
 import 'package:provider/provider.dart';
+import 'MainPage.dart';
 import 'auth_service.dart';
 import 'curd_service.dart';
 import 'homepage.dart';
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
     final user = context.read<AuthService>().currentUser();
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: user == null ? LoginPage() : NaverMapTest(),
+      home: user == null ? LoginPage() : MainPage(),
     );
   }
 }
